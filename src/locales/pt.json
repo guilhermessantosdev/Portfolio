@@ -1,0 +1,23 @@
+{
+  "translation": {
+    "nav.lang.pt": "PT",
+    "nav.lang.en": "EN",
+    "nav.lang.es": "ES",
+    "greeting": "Olá, seja bem-vindo!",
+    "about.me": "Sou Guilherme Santana, desenvolvedor em formação e entusiasta de tecnologia. <br/>\n        Gosto de explorar diferentes áreas da programação e aprender criando. <br/>\n        Tenho interesse em desenvolver projetos que sejam úteis, intuitivos e bem pensados. <br/>\n        Acredito no poder da curiosidade e da prática constante para crescer como desenvolvedor. <br/>\n        Fique à vontade para conhecer meus trabalhos e acompanhar minha jornada.",
+    "skills.title": "Habilidades",
+    "certificates.title": "Certificados",
+    "contacts.title": "Contatos",
+    "certificates.alt.main": "Certificado {{index}}",
+    "certificates.alt.thumb": "Miniatura {{index}}",
+    "certificates.alt.modal": "Certificado em tela cheia",
+    "skills.titles.markup": "Linguagens de Marcação",
+    "skills.titles.styling": "Linguagens de Estilização",
+    "skills.titles.programming": "Linguagens de Programação",
+    "skills.titles.data": "Linguagens de Transferência de Dados",
+    "skills.titles.protocols": "Protocolos de Comunicação",
+    "skills.titles.database": "Linguagens de Banco de Dados",
+    "skills.titles.devops": "Versionamento de Código | DevOps",
+    "skills.titles.os": "Sistemas Operacionais"
+  }
+}

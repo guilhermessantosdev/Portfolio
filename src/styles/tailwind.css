@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap");
+@import "tailwindcss";
+
+@layer utilities {
+  @property --gradient-angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+  }
+
+  @keyframes gradient-border-spin {
+    to {
+      --gradient-angle: 360deg;
+    }
+  }
+
+  .gradient-border-wrapper {
+    background: conic-gradient(
+      from var(--gradient-angle) at 50% 50%,
+      var(--border-color-1),
+      var(--border-color-2),
+      var(--border-color-3),
+      var(--border-color-1)
+    );
+    animation: gradient-border-spin 4s linear infinite;
+  }
+}
+
+:root[data-theme="light"] {
+  --bg-primary: #f8fafc;
+  --bg-secondary: #9aa6b2;
+  --bg-tertiary: #ffd1e3;
+  --text-primary: #1c1c1c;
+  --text-secondary: #6c757d;
+  --accent-primary: #1c1c1c;
+  --accent-secondary: #1c1c1c;
+  --separator-color: white;
+  --gradient-start: #5bbcff;
+  --gradient-via: #7ea1ff;
+  --gradient-end: #ffd1e3;
+  --border-color-1: #5bbcff;
+  --border-color-2: #7ea1ff;
+  --border-color-3: #ffd1e3;
+}
+
+:root[data-theme="dark"] {
+  --bg-primary: #030712;
+  --bg-secondary: #282a36;
+  --bg-tertiary: #1c1c1c;
+  --text-primary: #ffffff;
+  --text-secondary: #d1d5db;
+  --accent-primary: #22d3ee;
+  --accent-secondary: #7c3aed;
+  --separator-color: #ffffff;
+  --gradient-start: #00bffa;
+  --gradient-via: #7c3aed;
+  --gradient-end: #ff79c6;
+  --border-color-1: #00bffa;
+  --border-color-2: #7c3aed;
+  --border-color-3: #ff79c6;
+}
+
+html,
+body {
+  background-color: var(--bg-primary);
+
+  color: var(--text-primary);
+  transition: background-color 0.3s, color 0.3s;
+  font-family: "JetBrains Mono", monospace;
+
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.bg-primary {
+  background-color: var(--bg-primary);
+}
+.bg-secondary {
+  background-color: var(--bg-secondary);
+}
+.bg-tertiary {
+  background-color: var(--bg-tertiary);
+}
+
+.text-primary {
+  color: var(--text-primary);
+}
+.text-secondary {
+  color: var(--text-secondary);
+}
+.text-accent-primary {
+  color: var(--accent-primary);
+}
+.text-accent-secondary {
+  color: var(--accent-secondary);
+}
+
+.border-accent {
+  border-color: var(--accent-secondary);
+}
+.bg-separator {
+  background-color: var(--separator-color);
+}
+
+#root {
+  isolation: isolate;
+}

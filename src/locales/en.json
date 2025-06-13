@@ -1,0 +1,23 @@
+{
+  "translation": {
+    "nav.lang.pt": "PT",
+    "nav.lang.en": "EN",
+    "nav.lang.es": "ES",
+    "greeting": "Hello, welcome!",
+    "about.me": "I'm Guilherme Santana, an aspiring developer with a passion for technology. <br/>\n        I thrive on exploring diverse areas of programming and learning through hands-on creation. <br/>\n        My focus is on building projects that are not only useful and intuitive, but also well-engineered. <br/>\n        Driven by curiosity and practice, I am committed to my growth as a developer. <br/>\n        Please feel free to explore my work and follow my journey.",
+    "skills.title": "Skills",
+    "certificates.title": "Certificates",
+    "contacts.title": "Contacts",
+    "certificates.alt.main": "Certificate {{index}}",
+    "certificates.alt.thumb": "Thumbnail {{index}}",
+    "certificates.alt.modal": "Certificate in full screen",
+    "skills.titles.markup": "Markup Languages",
+    "skills.titles.styling": "Styling Languages",
+    "skills.titles.programming": "Programming Languages",
+    "skills.titles.data": "Data Transfer Languages",
+    "skills.titles.protocols": "Communication Protocols",
+    "skills.titles.database": "Database Languages",
+    "skills.titles.devops": "Code Versioning | DevOps",
+    "skills.titles.os": "Operating Systems"
+  }
+}
