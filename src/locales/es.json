@@ -14,9 +14,11 @@
     "skills.titles.markup": "Lenguajes de Marcado",
     "skills.titles.styling": "Lenguajes de Estilizado",
     "skills.titles.programming": "Lenguajes de Programación",
+    "skills.titles.frameworks": "Bibliotecas y Frameworks",
     "skills.titles.data": "Lenguajes de Transferencia de Datos",
     "skills.titles.protocols": "Protocolos de Comunicación",
     "skills.titles.database": "Lenguajes de Base de Datos",
+    "skills.titles.build": "Herramientas de Build",
     "skills.titles.devops": "Versionado de Código | DevOps",
     "skills.titles.os": "Sistemas Operativos"
   }

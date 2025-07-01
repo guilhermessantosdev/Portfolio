@@ -6,10 +6,11 @@ import {
   FaGitAlt,
   FaWindows,
   FaLinux,
+  FaReact,
 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { TbBrandCSharp } from "react-icons/tb";
-import { SiJson, SiMysql } from "react-icons/si";
+import { SiJson, SiMysql, SiTailwindcss, SiVite } from "react-icons/si";
 import { BsFiletypeXml } from "react-icons/bs";
 import { MdHttp } from "react-icons/md";
 import { DiMsqlServer } from "react-icons/di";
@@ -22,9 +23,13 @@ const skillGroupsData = [
     titleKey: "skills.titles.markup",
     skills: [{ name: "HTML 5", icon: FaHtml5, color: "#E34F26" }],
   },
+  // SEÇÃO ATUALIZADA
   {
     titleKey: "skills.titles.styling",
-    skills: [{ name: "CSS", icon: FaCss3, color: "#1572B6" }],
+    skills: [
+      { name: "CSS", icon: FaCss3, color: "#1572B6" },
+      { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4" },
+    ],
   },
   {
     titleKey: "skills.titles.programming",
@@ -33,6 +38,10 @@ const skillGroupsData = [
       { name: "Java", icon: FaJava, color: "#007396" },
       { name: "C#", icon: TbBrandCSharp, color: "#9B4F96" },
     ],
+  },
+  {
+    titleKey: "skills.titles.frameworks",
+    skills: [{ name: "React", icon: FaReact, color: "#61DAFB" }],
   },
   {
     titleKey: "skills.titles.data",
@@ -51,6 +60,10 @@ const skillGroupsData = [
       { name: "MySql", icon: SiMysql, color: "#4479A1" },
       { name: "SQL Server", icon: DiMsqlServer, color: "#CC2927" },
     ],
+  },
+  {
+    titleKey: "skills.titles.build",
+    skills: [{ name: "Vite", icon: SiVite, color: "#646CFF" }],
   },
   {
     titleKey: "skills.titles.devops",

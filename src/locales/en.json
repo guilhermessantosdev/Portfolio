@@ -14,9 +14,11 @@
     "skills.titles.markup": "Markup Languages",
     "skills.titles.styling": "Styling Languages",
     "skills.titles.programming": "Programming Languages",
+    "skills.titles.frameworks": "Libraries & Frameworks",
     "skills.titles.data": "Data Transfer Languages",
     "skills.titles.protocols": "Communication Protocols",
     "skills.titles.database": "Database Languages",
+    "skills.titles.build": "Build Tools",
     "skills.titles.devops": "Code Versioning | DevOps",
     "skills.titles.os": "Operating Systems"
   }
